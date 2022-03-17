@@ -46,8 +46,8 @@ public class StartApp {
 	public static void printMainMenu() {
 		System.out.println("1: Cadastro de Player");
 		System.out.println("2: Cadastro de Titulo");
-		System.out.println("3: Recomendar Filme Aleatório");
-		System.out.println("4: Recomendar Filme por Gênero");
+		System.out.println("3: Recomendar Filme AleatÃ³rio");
+		System.out.println("4: Recomendar Filme por GÃªnero");
 		System.out.println("9: Sair");
 	}
 	
@@ -75,7 +75,7 @@ public class StartApp {
 		System.out.println("Digite o elenco: ");
 		titulo.setElenco(leitura.nextLine());
 		
-		System.out.println("Digite a descrição: ");
+		System.out.println("Digite a descriÃ§Ã£o: ");
 		titulo.setDescricao(leitura.nextLine());
 		
 		System.out.println("Digite o genero: ");
@@ -84,7 +84,7 @@ public class StartApp {
 		System.out.println("Digite o nome do diretor: ");
 		titulo.setDiretor(leitura.nextLine());
 		
-		System.out.println("Digite a classificação: ");
+		System.out.println("Digite a classificaÃ§Ã£o: ");
 		titulo.setClassificacao(leitura.nextInt());
 		
 		System.out.println("Digite a plataforma: ");
@@ -98,14 +98,14 @@ public class StartApp {
 			System.out.println("\nTipo: "+ titlee.get(a).getTipo());
 			System.out.println("Titulo: "+ titlee.get(a).getTitulo());
 			System.out.println("Elenco: "+ titlee.get(a).getElenco());
-			System.out.println("Descrição: "+ titlee.get(a).getDescricao());
+			System.out.println("DescriÃ§Ã£o: "+ titlee.get(a).getDescricao());
 			System.out.println("Genero: "+ titlee.get(a).getGenero());
 			System.out.println("Diretor: "+ titlee.get(a).getDiretor());
-			System.out.println("Classificação: "+ titlee.get(a).getClassificacao());	
+			System.out.println("ClassificaÃ§Ã£o: "+ titlee.get(a).getClassificacao());	
 			System.out.println("Plataforma: "+ titlee.get(a).getPlataforma()+"\n");
 		}
 		else {
-			System.out.println("Nenhum titulo foi adicionado!");
+			System.out.println("Nenhum titulo foi adicionado");
 		}
 	}
 	
@@ -119,10 +119,10 @@ public class StartApp {
 //		System.out.println("\nTipo: "+ titlee.get(i).getTipo());
 //		System.out.println("Titulo: "+ titlee.get(i).getTitulo());
 //		System.out.println("Elenco: "+ titlee.get(i).getElenco());
-//		System.out.println("Descrição: "+ titlee.get(i).getDescricao());
+//		System.out.println("DescriÃ§Ã£o: "+ titlee.get(i).getDescricao());
 //		System.out.println("Genero: "+ titlee.get(i).getGenero());
 //		System.out.println("Diretor: "+ titlee.get(i).getDiretor());
-//		System.out.println("Classificação: "+ titlee.get(i).getClassificacao());	
+//		System.out.println("ClassificaÃ§Ã£o: "+ titlee.get(i).getClassificacao());	
 //		System.out.println("Plataforma: "+ titlee.get(i).getPlataforma());
 //		System.out.println("Nome: "+ player.get(i).getNome());
 //		System.out.println("Url: "+ player.get(i).getUrl()+"\n");
