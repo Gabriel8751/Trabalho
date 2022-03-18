@@ -8,7 +8,7 @@ public class Titulo {
 	private String genero;
 	private String diretor;
 	private int classificacao;
-	private String plataforma;
+	private Player plataforma;
 	
 	public String getTipo() {
 		return tipo;
@@ -66,12 +66,11 @@ public class Titulo {
 		this.classificacao = classificacao;
 	}
 	
-	public String getPlataforma() {
+	public Player getPlataforma() {
 		return plataforma;
 	}
 	
-	public void setPlataforma(String plataforma) {
+	public void setPlataforma(Player plataforma) {
 		this.plataforma = plataforma;
 	}
-	
 }
